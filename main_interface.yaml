@@ -1,0 +1,5 @@
+# "-"代表数组,后面的内容相当于在同一个数组
+goto_market:
+  - by: xpath
+    locator: "//*[@resource-id='android:id/tabs']//*[@text='行情']"
+    action: click
